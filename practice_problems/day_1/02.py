@@ -1,0 +1,7 @@
+a = complex(input("Enter real part of 1st number: "))
+b = complex(input("Enter imaginary part of 2nd number: "))
+c = complex(input("Enter real part of 2nd number: "))
+d = complex(input("Enter imaginary part of 2nd number: "))
+e = complex(a,b)
+f = complex(c,d)
+print(f"The addition of {e} and {f} are",(e+f))
